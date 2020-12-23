@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Langar&family=Roboto&display=swap');
+
+/* Margin Plus */
+.mb-6 {
+  margin-bottom: 6rem !important;
+}
+.mb-7 {
+  margin-bottom: 7rem !important;
+}
+
+.mt-6 {
+  margin-top: 6rem !important;
+}
+.mt-7 {
+  margin-top: 7rem !important;
+}
+
+.my-6 {
+  margin-top: 4rem !important;
+  margin-bottom: 4rem !important;
+}
+.my-7 {
+  margin-top: 7rem !important;
+  margin-bottom: 7rem !important;
+}
+
+.mx-6 {
+  margin-right: 4rem !important;
+  margin-left: 4rem !important;
+}
+
+.mx-7 {
+  margin-right: 7rem !important;
+  margin-left: 7rem !important;
+}
+
+/* Position plus  */
+
+.top-n10 {
+  top: -10% !important;
+}
+.top-n20 {
+  top: -20% !important;
+}
+
+/* NAVBAR SIDE */
+#navigationlateral {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 50;
+  left: 1%;
+  background-color: rgba(128, 128, 128, 0.493);
+  border-radius: 30px;
+  width: 3vw;
+  text-align: center;
+  z-index: 1000;
+}
+
+#navigationlateral > a {
+  color: rgb(56, 56, 56);
+}
+
+#navigationlateral > a:hover {
+  color: antiquewhite;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+}
+
+h5 {
+  font-family: 'Langar', cursive;
+  font-weight: 700;
+  font-size: 2.5em;
+}
+
+hr {
+  color: #eb6f1c;
+  width: 100px;
+  border: #eb6f1c 3px solid;
+}
+
+.navbar {
+  font-family: langar;
+}
+/* IMG fixed  */
+.img1 {
+  /* border: rgb(75, 255, 3) dashed 3px; */
+  width: 70%;
+}
+
+.img1:hover {
+  position: relative;
+  border: 2px solid cyan;
+  z-index: 2;
+  width: fit-content;
+  cursor: pointer;
+}
+
+.img2 {
+  /* border: yellow dashed 3px; */
+  width: 70%;
+}
+
+.img2:hover {
+  border: 2px solid cyan;
+  width: fit-content;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.img3 {
+  /* border: yellow dashed 3px; */
+  width: 100%;
+}
+.img3:hover {
+  width: 150%;
+  cursor: pointer;
+  border: 2px solid cyan;
+}
+
+.img4 {
+  /* border: yellow dashed 3px; */
+  width: 70%;
+}
+.img4:hover {
+  width: 100%;
+  cursor: pointer;
+  border: 2px solid cyan;
+}
+
+/* CAROUSEL  */
+
+.carousel-control-next,
+.carousel-control-prev {
+  background-color: rgb(255, 255, 255);
+  width: 6%;
+}
+
+#carousel2 > .carousel-item {
+  height: 70vh;
+}
+
+footer {
+  border-top: 2px solid gray;
+}
