@@ -35,6 +35,12 @@
   margin-left: 7rem !important;
 }
 
+/* Navbar custom
+.custom-navbar {
+  top: 10px;
+  transition: top 3s;
+} */
+
 /* Position plus  */
 
 .top-n10 {
@@ -71,6 +77,10 @@ body {
   font-weight: 600;
 }
 
+h1,
+h2,
+h3,
+h4,
 h5 {
   font-family: 'Langar', cursive;
   font-weight: 700;
