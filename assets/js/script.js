@@ -4,10 +4,10 @@ window.onscroll = function () {
   var currentScrollPos = window.pageYOffset;
   if (prevScrollpos > currentScrollPos) {
     document.getElementById('custom-navbar').style.top = '0';
-    document.getElementById('custom-navbar').style.transition = 'top 1s';
+    document.getElementById('custom-navbar').style.transition = 'top 1.5s';
   } else {
     document.getElementById('custom-navbar').style.top = '-100px';
-    document.getElementById('custom-navbar').style.transition = 'top 1s';
+    document.getElementById('custom-navbar').style.transition = 'top 1.5s';
   }
   prevScrollpos = currentScrollPos;
 };
